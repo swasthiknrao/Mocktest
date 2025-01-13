@@ -9,6 +9,7 @@ import 'screens/create_test_screen.dart';
 import 'screens/daily_practice_screen.dart';
 import 'screens/profile_screen.dart';
 import 'screens/exam_prepare_screen.dart';
+import 'screens/learn_screen.dart';
 
 import 'screens/menu_screen.dart';
 import 'screens/stats_screen.dart';
@@ -42,7 +43,7 @@ class TestApp extends StatelessWidget {
           '/daily-practice': (context) => const DailyPracticeScreen(),
           '/profile': (context) => const ProfileScreen(),
           '/exam-prepare': (context) => const ExamPrepareScreen(),
-          '/menu': (context) => const MenuScreen(),
+          '/learn': (context) => const LearnScreen(),
           '/stats': (context) => const StatsScreen(),
           '/ssc-exams': (context) => const SSCExamScreen(),
           '/test': (context) {

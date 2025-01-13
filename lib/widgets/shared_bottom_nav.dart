@@ -46,7 +46,7 @@ class SharedBottomNav extends StatelessWidget {
         );
         break;
       case 3:
-        routeName = '/menu';
+        routeName = '/learn';
         break;
       case 4:
         routeName = '/stats';
@@ -89,7 +89,7 @@ class SharedBottomNav extends StatelessWidget {
             _buildNavItem(context, 0, Icons.home_outlined, 'Home'),
             _buildNavItem(context, 1, Icons.book_outlined, 'Exam Prepare'),
             _buildNavItem(context, 2, Icons.assignment_outlined, 'Test'),
-            _buildNavItem(context, 3, Icons.menu, 'Menu'),
+            _buildNavItem(context, 3, Icons.local_library_outlined, 'Learn'),
             _buildNavItem(context, 4, Icons.pie_chart_outline, 'Stats'),
           ],
         ),
