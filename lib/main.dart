@@ -10,11 +10,11 @@ import 'screens/daily_practice_screen.dart';
 import 'screens/profile_screen.dart';
 import 'screens/exam_prepare_screen.dart';
 import 'screens/learn_screen.dart';
-
 import 'screens/menu_screen.dart';
 import 'screens/stats_screen.dart';
 import 'screens/ssc_exam_screen.dart';
 import 'screens/test_screen.dart';
+import 'screens/banking_exam_screen.dart';
 
 void main() {
   runApp(const TestApp());
@@ -46,6 +46,7 @@ class TestApp extends StatelessWidget {
           '/learn': (context) => const LearnScreen(),
           '/stats': (context) => const StatsScreen(),
           '/ssc-exams': (context) => const SSCExamScreen(),
+          '/banking-exams': (context) => const BankingExamScreen(),
           '/test': (context) {
             final args =
                 ModalRoute.of(context)?.settings.arguments as TestModel;

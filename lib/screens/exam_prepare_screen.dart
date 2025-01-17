@@ -985,6 +985,8 @@ class _ExamPrepareScreenState extends State<ExamPrepareScreen>
           onTap: () {
             if (title == 'SSC Exams') {
               Navigator.pushNamed(context, '/ssc-exams');
+            } else if (title == 'Banking Exams') {
+              Navigator.pushNamed(context, '/banking-exams');
             }
           },
           borderRadius: BorderRadius.circular(24),
